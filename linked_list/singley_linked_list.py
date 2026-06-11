@@ -121,15 +121,15 @@ class LinkedList:
 my_linked_list = LinkedList(1)
 my_linked_list.append(2)
 my_linked_list.append(3)
-my_linked_list.append(4)
+# my_linked_list.append(4)
 
-my_linked_list.reverse()
+# my_linked_list.reverse()
 
-my_linked_list.print_list()
+# my_linked_list.print_list()
 
 # print(my_linked_list.remove(1), '\n')
 
-# my_linked_list.insert(1,7)
+my_linked_list.insert(1,7)
 
 # my_linked_list.set_value(2,5)
 
@@ -139,7 +139,7 @@ my_linked_list.print_list()
 # print(my_linked_list.pop_first())
 # print(my_linked_list.pop_first())
 
-# my_linked_list.print_list()
+my_linked_list.print_list()
 
 # my_linked_list.prepend(1)
 # print(my_linked_list.pop())
